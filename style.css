@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Big Shoulders Display', sans-serif;
+font-family: 'Lexend Deca', sans-serif;
+font-family: 'Poppins', sans-serif;
+  
+}
+
+:root{
+    --desktop-resposive : 1360px;
+}
+/* header css */
+
+header{
+    width: 100%;
+}
+nav{
+    padding: 0.8rem 1rem;
+    max-width: var(--desktop-resposive);
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home_button{
+    font-weight: 900;
+}
+
+.tabs_container{
+ display: flex;   
+ justify-content: space-between;
+}
+
+.tab{
+    cursor: pointer;
+    margin: 0 0.6rem;
+}
+.tab:hover{
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0 0.6rem;
+}
+
+/* header css */
+
+main{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.about_container{
+max-width:var(--desktop-resposive);
+margin: 0 auto;
+}
+
+h1{
+    line-height: 0.6in;
+    font-size: 3rem;
+    font-weight: 800;
+    font-style: bold;
+    margin-bottom: 3rem;
+}
+
+.icon{
+    cursor: pointer;
+    width: 32px;
+}
+
+.icon:hover{
+    visibility: hidden;
+    animation-duration: 2s;
+}
+
+/* todo add profile image */
