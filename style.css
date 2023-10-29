@@ -181,7 +181,7 @@ min-height: 100vh;
 .project_container{
     cursor: pointer;
     display: flex;
-
+    padding: 40px 0;
    align-items: center;
 }
 
@@ -194,7 +194,7 @@ min-height: 100vh;
 }
 
 .screenshot{
-   
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
     width: 540px;
     height: 350px;
     object-fit: contain;
