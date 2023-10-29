@@ -27,7 +27,12 @@ body{
 /* header css */
 
 header{
+    background-color: white;
     width: 100%;
+    position: sticky;
+    left: 0;
+    top: 0 ;
+    z-index: 1;
 }
 nav{
     padding: 0.8rem 1rem;
@@ -67,6 +72,7 @@ nav{
 /* header css */
 
 main{
+    z-index: 0;
     display: flex;
     align-items: center;
     width: 100%;
@@ -104,7 +110,7 @@ justify-content: space-around;
 }
 
 .github_icon:hover{
-    border-bottom: 2px solid --primary-color !important;
+    border-bottom: 2px solid var(--primary-color) !important;
 }
 
 .intro_container > img{
@@ -117,6 +123,7 @@ justify-content: space-around;
 /* about me */
 
 .about_me{
+    z-index: 0;
     display: flex;
     align-items: center;
 min-height: 100vh;
@@ -165,6 +172,7 @@ min-height: 100vh;
 /* project section */
 
 .project_section{
+    z-index: 0;
     width: 100%;
     min-height: 100vh;
 }
@@ -265,7 +273,7 @@ h4{
 /* FOOTER SECTION */
 
 footer{
-
+    z-index: 0;
     padding-top: 5rem;
     margin-top: 5rem;
     width: 100%;
