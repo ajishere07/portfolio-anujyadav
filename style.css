@@ -177,11 +177,8 @@ main{
 
 @media screen and (max-width:650px) {
     .about_container > p{
-      margin: 0 0.5rem;
+      margin: 0;
     }
-    .about_container > span{
-        margin: 0 0.5rem;
-      }
     .intro_container{
         flex-direction: column-reverse;
       
