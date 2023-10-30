@@ -86,7 +86,7 @@ nav{
     width: 250px;
     height: 100vh;
     top: 0px;
-    right: 0px;
+    right: -2px;
     z-index: 2;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
     background-color: white;
@@ -118,12 +118,7 @@ nav{
      top: 0 ;
      z-index: 1;
     }
-
-
-
-     
-     
-     
+    
 }
 
 
@@ -155,6 +150,8 @@ main{
         margin-bottom: 3rem;    
 }
 
+
+
 .icon {
     cursor: pointer;
     width: 32px;
@@ -179,6 +176,12 @@ main{
 }
 
 @media screen and (max-width:650px) {
+    .about_container > p{
+      margin: 0 0.9rem;
+    }
+    .about_container > span{
+        margin: 0 0.9rem;
+      }
     .intro_container{
         flex-direction: column-reverse;
       
