@@ -431,8 +431,26 @@ h4{
     justify-content: space-evenly;
     display: flex;
     margin-top: 40px;
-    }
+    } .information_container > p{
+            padding: 0 20px;
+          }
+.screenshot{
+       width: 390px;
+          height: 200px;
 }
+       
+}
+
+@media screen and (max-width:663px) {
+   
+    .information_con > img{
+        width:28px;
+        height: 28PX;
+        margin: 0 0.7rem;
+    } 
+       
+      }
+
 /* project section */
 
 /* FOOTER SECTION */
@@ -464,6 +482,9 @@ footer{
 
 
 @media screen and (max-width:663px) {
+    .contact_section{
+        margin: 0 10px;
+    }
     .information_con > img{
         width:28px;
         height: 28PX;
